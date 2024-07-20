@@ -1,0 +1,12 @@
+Terminal % composer init
+
+    "autoload": {
+        "psr-4":{
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    }
+
+Terminal % composer update
